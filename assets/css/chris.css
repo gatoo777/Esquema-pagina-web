@@ -1,0 +1,154 @@
+body{
+    background-color: white;
+}
+
+body *{
+    font-family: 'inter', sans-serif; 
+}
+
+/* navbar + logo + link------------------------------------ */
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40px; 
+    width: 130px; 
+    padding:8px 125px;
+}
+
+.navbar-utorrent {
+    display: inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 6px;
+    width: 1395px;
+    padding: 30px 25px;
+
+}
+.navbar-utorrent{
+    font-size: 18px;
+    font-family: inter,sans-serif;
+    text-align: left;
+}
+
+.forum{
+    padding-right: -10px;
+}
+
+ul, li{
+    display: inline-block;
+    margin: 0 23px;
+
+}
+
+.params_list{
+    margin: 0 125px;
+}
+
+
+
+/* banner + image + text------------------------------------- */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+        
+.banner{
+    height: 346px;
+    width: auto;
+    background-color: #1a1a1a;
+    padding: 0;
+        
+    }
+
+    /* div parte izquierda */
+.pantalla1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 85px;
+    height: 382px;
+    width: 390px;
+    transform: translateX(-103px);
+}
+.pantalla1 img{
+    margin: 10px 0 200px 0;
+
+}
+
+.pantalla_1{
+    display: flex;
+    justify-content: left;
+    align-items: center;  
+    padding:10px 120px;
+    margin: 0 0 -39px;
+}
+
+.pantalla_compu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div parte derecha */
+.div_padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+    
+
+
+}
+
+.hija_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px -30px 30px;
+}
+
+.logo_derecho{
+    width: 60px;
+    margin: 15px;
+
+}
+
+.params_µ{
+    color: #76b83e;
+    font-size: 44px;
+}
+
+.params_font_torrent{
+    color: #76b83e;
+    font-size: 44px;
+    margin: -5px;
+}
+.params_font_web{
+    color: white;
+    font-size: 44px;
+    margin: 10px;
+}
+
+.texto_h2{
+    color: white;
+    text-align: center;
+    margin: 0 0 5px;
+    font-family: inter,sans-serif;
+}
+
+.btn_button{
+    height: 50px;
+    width: 250px;
+    border: 4px;
+    border-radius: 5px;
+    background-color: #76b83e;
+    color: white;
+
+}
+
